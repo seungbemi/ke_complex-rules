@@ -19,15 +19,25 @@ The following modes can be enabled by hitting extra dedicated keys while CapsLoc
 
 The detailed instructions can be found in [karabiner-elements](https://github.com/pqrs-org/KE-complex_modifications#import-file-from-another-site).
 
-| File                              | Description                           |
+In order to import the rules, fill `<Rule URL>` and open the link in a web browser.
+> karabiner://karabiner/assets/complex_modifications/import?url=`<Rule URL>`
+
+Or
+
+The ruleset files can directly be copied under
+> $HOME/.config/karabiner/assets/complex_modifications/
+
+Rule URLs can be copied from the following list.
+
+| URL | Description |
 |-----------------------------------|---------------------------------------|
-| CustomCapslock_Base               | Ruleset for basic custom capslock     |
-| CustomCapslock_iTerm2             | Ruleset for iTerms2                   |
-| CustomCapslock_VSCode             | Ruleset for VSCode                    |
-| CustomCapslock_LauncherMode       | Ruleset to launch applications        |
-| CustomCapslock_WindowCtrlMode     | Ruleset to control activated window   |
-| CustomCapslock_MouseKeyMode       | Ruleset to use mouse using keyboard   |
-| CustomTab_Base                    | Ruleset using tab as a modifier       |
+| [CustomCapslock_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_Base.json) | Ruleset for basic custom capslock |
+| [CustomCapslock_iTerm2](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_iTerm2.json) | Ruleset for iTerms2 |
+| [CustomCapslock_VSCode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_VSCode.json) | Ruleset for VSCode |
+| [CustomCapslock_LauncherMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_LauncherMode.json)| Ruleset to launch applications |
+| [CustomCapslock_WindowCtrlMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_WindowCtrlMode.json) | Ruleset to control activated window |
+| [CustomCapslock_MouseKeyMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_MouseKeyMode.json) | Ruleset to use mouse using keyboard |
+| [CustomTab_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomTab_Base.json) | Ruleset using tab as a modifier |
 
 ## CustomCapslock Basic
 
