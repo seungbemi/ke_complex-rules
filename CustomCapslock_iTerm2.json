@@ -1,0 +1,42 @@
+{
+    "title": "CustomCapsLock : iTerm support",
+    "rules": [
+        {
+            "description": "CustomCapsLock | iTerm2 : left_control+r (r)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        },
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.googlecode\\.iterm2$"
+                            ],
+                            "type": "frontmost_application_if"
+                        }
+                    ],
+                    "from": {
+                        "key_code": "r",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "r",
+                            "modifiers": [
+                                "left_control"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
