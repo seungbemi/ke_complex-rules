@@ -1,0 +1,43 @@
+{
+    "title": "CustomCapsLock: TranslateTab support",
+    "rules": [
+        {
+            "description": "CustomCapsLock | TranslateTab : left_shift+left_command+r (s)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        },
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.piezo\\.Translate-Tab$"
+                            ],
+                            "type": "frontmost_application_if"
+                        }
+                    ],
+                    "from": {
+                        "key_code": "s",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "s",
+                            "modifiers": [
+                                "left_command",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}

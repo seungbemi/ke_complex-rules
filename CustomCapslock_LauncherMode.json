@@ -177,6 +177,34 @@
             ]
         },
         {
+            "description": "CustomCapsLock | LauncherMode : IntelliJ (j)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 2
+                        }
+                    ],
+                    "from": {
+                        "key_code": "j",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "open -a 'IntelliJ IDEA CE.app'"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "CustomCapsLock | LauncherMode : KakaoTalk (k)",
             "manipulators": [
                 {
@@ -230,6 +258,34 @@
                                 "left_control",
                                 "fn"
                             ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "CustomCapsLock | LauncherMode : Presto (p)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 2
+                        }
+                    ],
+                    "from": {
+                        "key_code": "p",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "open -a 'Presto.app'"
                         }
                     ],
                     "type": "basic"

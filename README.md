@@ -34,6 +34,8 @@ Rule URLs can be copied from the following list.
 | [CustomCapslock_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_Base.json) | Ruleset for basic custom capslock |
 | [CustomCapslock_iTerm2](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_iTerm2.json) | Ruleset for iTerms2 |
 | [CustomCapslock_VSCode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_VSCode.json) | Ruleset for VSCode |
+| [CustomCapslock_TraslateTab](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_TranslateTab.json) | Ruleset for Translate Tab |
+| [CustomCapslock_IntelliJ](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_IntelliJ.json) | Ruleset for IntelliJ |
 | [CustomCapslock_LauncherMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_LauncherMode.json)| Ruleset to launch applications |
 | [CustomCapslock_WindowCtrlMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_WindowCtrlMode.json) | Ruleset to control activated window |
 | [CustomCapslock_MouseKeyMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_MouseKeyMode.json) | Ruleset to use mouse using keyboard |
@@ -161,6 +163,28 @@ The following bindings are only enabled in iTerm application.
 | - | - |
 | r | CTRL + r |
 
+### Translate Tab
+
+The following bindings are only enabled in Translate Tab application.
+| FROM | TO |
+| - | - |
+| s | Swap Language |
+
+### IntelliJ CE
+
+The following bindings are only enabled in VSCode application.
+| FROM | TO |
+| - | - |
+| b | Go Back (CMD + [) |
+| n | Go Foward (CMD + ]) |
+| m | Declaration or Usages (CMD + b) |
+| CMD + m | Implementations (CMD + OPTION + b) |
+| OPTION + m | Type Declaration (CMD + SHIFT + b) |
+| comma(,) | Next Problem (f2) |
+| period(.)| Expand Selection |
+| CMD + period | Shrink Selection |
+| Slash(/) | Toggle line comment |
+
 ## Launcher Mode
 
 The launcher mode can be initiated by striking enter while the capslock key is being pressed.
@@ -174,8 +198,10 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 | e | Spark |
 | f | Forklift |
 | i | Safari |
+| j | IntelliJ CE |
 | k | KakaoTalk |
 | m | Menu (CTRL + f2)
+| p | Presto |
 | s | Slack |
 | t | iTerm |
 | v | VSCode |
