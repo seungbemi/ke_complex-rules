@@ -172,7 +172,7 @@ The following bindings are only enabled in Translate Tab application.
 
 ### IntelliJ CE
 
-The following bindings are only enabled in VSCode application.
+The following bindings are only enabled in IntelliJ CE application.
 | FROM | TO |
 | - | - |
 | b | Go Back (CMD + [) |
@@ -195,15 +195,13 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 | - | - |
 | c | Chrome |
 | d | Dock (CTRL + f3) |
-| e | Spark |
 | f | Forklift |
 | i | Safari |
-| j | IntelliJ CE |
+| j | Menu (CTRL + f2)
 | k | KakaoTalk |
-| m | Menu (CTRL + f2)
-| p | Presto |
+| m | Mail |
 | s | Slack |
-| t | iTerm |
+| t | iTerm2 |
 | v | VSCode |
 | w | WhatsApp |
 

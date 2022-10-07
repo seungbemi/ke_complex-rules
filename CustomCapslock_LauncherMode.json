@@ -86,6 +86,12 @@
                                 "left_control",
                                 "fn"
                             ]
+                        },
+                        {
+                            "set_variable": {
+                                "name": "capslock_mode",
+                                "value": 1
+                            }
                         }
                     ],
                     "type": "basic"
@@ -93,7 +99,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : Spark (e)",
+            "description": "CustomCapsLock | LauncherMode : Mail (e)",
             "manipulators": [
                 {
                     "conditions": [
@@ -113,7 +119,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'Spark.app'"
+                            "shell_command": "open -a 'Mail.app'"
                         }
                     ],
                     "type": "basic"
@@ -177,7 +183,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : IntelliJ (j)",
+            "description": "CustomCapsLock | LauncherMode : Menu (j)",
             "manipulators": [
                 {
                     "conditions": [
@@ -197,7 +203,20 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'IntelliJ IDEA CE.app'"
+                            "key_code": "f2",
+                            "modifiers": [
+                                "left_control",
+                                "fn"
+                            ]
+                        },
+                        {
+                            "key_code": "down_arrow"
+                        },
+                        {
+                            "set_variable": {
+                                "name": "capslock_mode",
+                                "value": 1
+                            }
                         }
                     ],
                     "type": "basic"
@@ -233,7 +252,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : Menu (m)",
+            "description": "CustomCapsLock | LauncherMode : Messages (m)",
             "manipulators": [
                 {
                     "conditions": [
@@ -253,39 +272,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "f2",
-                            "modifiers": [
-                                "left_control",
-                                "fn"
-                            ]
-                        }
-                    ],
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "CustomCapsLock | LauncherMode : Presto (p)",
-            "manipulators": [
-                {
-                    "conditions": [
-                        {
-                            "name": "capslock_mode",
-                            "type": "variable_if",
-                            "value": 2
-                        }
-                    ],
-                    "from": {
-                        "key_code": "p",
-                        "modifiers": {
-                            "optional": [
-                                "caps_lock"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "shell_command": "open -a 'Presto.app'"
+                            "shell_command": "open -a 'Messages.app'"
                         }
                     ],
                     "type": "basic"
