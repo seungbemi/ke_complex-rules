@@ -320,10 +320,13 @@ e.g. tab(alone) -> tab, tab + q -> previous application
 
 | FROM | TO |
 | - | - |
-| o | 6 |
-| i | 5 |
-| u | 4 |
-| l | 3 |
-| k | 2 |
-| j | 1 |
-| m | 0 |
+| o | 9 |
+| i | 8 |
+| u | 7 |
+| l | 6 |
+| k | 5 |
+| j | 4 |
+| comma(,) | 3 |
+| o | 2 |
+| i | 1 |
+| Space | 0 |
