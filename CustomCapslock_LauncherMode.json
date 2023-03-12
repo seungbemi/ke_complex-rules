@@ -155,6 +155,34 @@
             ]
         },
         {
+            "description": "CustomCapsLock | LauncherMode : Microsoft Edge (g)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 2
+                        }
+                    ],
+                    "from": {
+                        "key_code": "g",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "open -a 'Microsoft Edge.app'"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "CustomCapsLock | LauncherMode : Safari (i)",
             "manipulators": [
                 {
@@ -280,6 +308,34 @@
             ]
         },
         {
+            "description": "CustomCapsLock | LauncherMode : Spark (p)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 2
+                        }
+                    ],
+                    "from": {
+                        "key_code": "p",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "open -a 'Spark.app'"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "CustomCapsLock | LauncherMode : Slack (s)",
             "manipulators": [
                 {
@@ -385,6 +441,31 @@
                     "to": [
                         {
                             "shell_command": "open -a 'WhatsApp.app'"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Launcher | PastePal (CMD + e)",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "e",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_command"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "v",
+                            "modifiers": [
+                                "left_command",
+                                "left_shift"
+                            ]
                         }
                     ],
                     "type": "basic"

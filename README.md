@@ -196,10 +196,12 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 | c | Chrome |
 | d | Dock (CTRL + f3) |
 | f | Forklift |
+| g | Micorsoft Edge |
 | i | Safari |
 | j | Menu (CTRL + f2)
 | k | KakaoTalk |
 | m | Mail |
+| p | Spark |
 | s | Slack |
 | t | iTerm2 |
 | v | VSCode |
