@@ -22,9 +22,6 @@
                                 "name": "tab_mode",
                                 "value": 0
                             }
-                        },
-                        {
-                            "key_code": "fn"
                         }
                     ],
                     "to_if_alone": [
