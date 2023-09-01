@@ -172,14 +172,15 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 
 | FROM | Application |
 | - | - |
-| c | Chrome |
+| b | Brave Browser |
+| c | Chrome Browser |
 | d | Dock (CTRL + f3) |
 | f | Forklift |
 | g | Micorsoft Edge |
 | i | Safari |
 | j | Menu (CTRL + f2)
 | k | KakaoTalk |
-| m | Mail |
+| m | Messages |
 | p | Spark |
 | s | Slack |
 | t | iTerm2 |
