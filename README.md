@@ -116,6 +116,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | q | CMD + q |
 | CMD + w  | CMD + SHIFT + w |
 | w | CMD + w |
+| CMD + r | CMD + SHIFT + r |
 | r | CMD + r |
 | CMD + t | CMD + SHIFT + t |
 | t | CMD + t |

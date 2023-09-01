@@ -779,6 +779,36 @@
                     "from": {
                         "key_code": "r",
                         "modifiers": {
+                            "mandatory": [
+                                "left_command"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "r",
+                            "modifiers": [
+                                "left_command",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
+                    "from": {
+                        "key_code": "r",
+                        "modifiers": {
                             "optional": [
                                 "any"
                             ]
