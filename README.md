@@ -163,28 +163,6 @@ The following bindings are only enabled in iTerm application.
 | - | - |
 | r | CTRL + r |
 
-### Translate Tab
-
-The following bindings are only enabled in Translate Tab application.
-| FROM | TO |
-| - | - |
-| s | Swap Language |
-
-### IntelliJ CE
-
-The following bindings are only enabled in IntelliJ CE application.
-| FROM | TO |
-| - | - |
-| b | Go Back (CMD + [) |
-| n | Go Foward (CMD + ]) |
-| m | Declaration or Usages (CMD + b) |
-| CMD + m | Implementations (CMD + OPTION + b) |
-| OPTION + m | Type Declaration (CMD + SHIFT + b) |
-| comma(,) | Next Problem (f2) |
-| period(.)| Expand Selection |
-| CMD + period | Shrink Selection |
-| Slash(/) | Toggle line comment |
-
 ## Launcher Mode
 
 The launcher mode can be initiated by striking enter while the capslock key is being pressed.
