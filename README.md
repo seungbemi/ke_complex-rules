@@ -138,7 +138,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | 9 | Next window |
 | g | Select a word |
 | Tab | SHIFT+Tab |
-| d | Open [Translated Tab](https://translate-tab.com/) |
+| d | Open [Translatium](https://translatium.ai/) |
 | Right CMD(without capslock) | Switch Input language |
 | Right Option(without capslock) | fn key |
 

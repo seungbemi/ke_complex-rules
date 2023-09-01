@@ -1065,7 +1065,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock : Translate Tab (d)",
+            "description": "CustomCapsLock : Translatium (d)",
             "manipulators": [
                 {
                     "conditions": [
