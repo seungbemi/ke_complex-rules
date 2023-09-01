@@ -243,7 +243,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Click (v,b,n)",
+            "description": "CustomCapsLock | MouseKeyMode : Click (v,c,b)",
             "manipulators": [
                 {
                     "conditions": [
@@ -277,7 +277,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "b",
+                        "key_code": "c",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -303,7 +303,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "n",
+                        "key_code": "b",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -452,6 +452,35 @@
                             "modifiers": [
                                 "left_command"
                             ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "CustomCapsLock | MouseKeyMode : Escape (e)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "e",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock",
+                                "left_shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
                         }
                     ],
                     "type": "basic"

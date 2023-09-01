@@ -263,8 +263,8 @@ The Mouse Key Mode can be initiated by striking right shift key while the capslo
 | FROM | TO |
 | - | - |
 | v | Left click |
-| b | CMD + Left click |
-| n | Right click |
+| c | CMD + Left click |
+| b | Right click |
 
 ### Speed control
 
@@ -276,12 +276,13 @@ The speed will change while pressing the following keys.
 | d | Faster cursor speed |
 | f | Even Faster cursor speed |
 
-### Prev/Next page
+### Common keys
 
 | FROM | TO |
 | - | - |
 | h | Prev Page |
 | semicolon(;) | Next Page |
+| e | Escape |
 
 ## Custom Tab Basic
 
