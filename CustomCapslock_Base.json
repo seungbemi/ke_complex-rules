@@ -1065,7 +1065,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock : Translatium (d)",
+            "description": "CustomCapsLock : DeepL (d)",
             "manipulators": [
                 {
                     "conditions": [

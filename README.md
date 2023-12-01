@@ -34,8 +34,6 @@ Rule URLs can be copied from the following list.
 | [CustomCapslock_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_Base.json) | Ruleset for basic custom capslock |
 | [CustomCapslock_iTerm2](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_iTerm2.json) | Ruleset for iTerms2 |
 | [CustomCapslock_VSCode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_VSCode.json) | Ruleset for VSCode |
-| [CustomCapslock_TraslateTab](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_TranslateTab.json) | Ruleset for Translate Tab |
-| [CustomCapslock_IntelliJ](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_IntelliJ.json) | Ruleset for IntelliJ |
 | [CustomCapslock_LauncherMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_LauncherMode.json)| Ruleset to launch applications |
 | [CustomCapslock_WindowCtrlMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_WindowCtrlMode.json) | Ruleset to control activated window |
 | [CustomCapslock_MouseKeyMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_MouseKeyMode.json) | Ruleset to use mouse using keyboard |
@@ -138,13 +136,14 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | 9 | Next window |
 | g | Select a word |
 | Tab | SHIFT+Tab |
-| d | Open [Translatium](https://translatium.ai/) |
+| d | [DeepL](https://www.deepl.com/pro?cta=header-pro) app |
 | Right CMD(without capslock) | Switch Input language |
 | Right Option(without capslock) | fn key |
 
 ### VSCode
 
 The following bindings are only enabled in VSCode application.
+
 | FROM | TO |
 | - | - |
 | b | Go Back (CTRL + hypen) |
