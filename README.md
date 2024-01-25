@@ -52,6 +52,15 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | CapsLock | Virtual Modifier |
 | 5 | CapsLock |
 
+### Home Row Modifier
+
+| FROM | TO |
+| - | - |
+| a + other keys | CTRL |
+| s + other keys | SHIFT |
+| d + other keys | OPTION |
+| f + other keys | CMD |
+
 ### Diamond cursor
 
 | FROM | TO |

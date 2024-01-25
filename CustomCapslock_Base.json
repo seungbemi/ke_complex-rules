@@ -840,12 +840,18 @@
                             ]
                         }
                     },
-                    "to": [
+                    "to_if_alone": [
                         {
                             "key_code": "s",
                             "modifiers": [
                                 "left_command"
                             ]
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "left_shift",
+                            "lazy": true
                         }
                     ],
                     "type": "basic"
@@ -866,12 +872,18 @@
                             ]
                         }
                     },
-                    "to": [
+                    "to_if_alone": [
                         {
                             "key_code": "f",
                             "modifiers": [
                                 "left_command"
                             ]
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "left_command",
+                            "lazy": true
                         }
                     ],
                     "type": "basic"
@@ -996,12 +1008,18 @@
                             ]
                         }
                     },
-                    "to": [
+                    "to_if_alone": [
                         {
                             "key_code": "a",
                             "modifiers": [
                                 "left_command"
                             ]
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "left_control",
+                            "lazy": true
                         }
                     ],
                     "type": "basic"
@@ -1079,11 +1097,11 @@
                         "key_code": "d",
                         "modifiers": {
                             "optional": [
-                                "caps_lock"
+                                "any"
                             ]
                         }
                     },
-                    "to": [
+                    "to_if_alone": [
                         {
                             "key_code": "d",
                             "modifiers": [
@@ -1091,6 +1109,12 @@
                                 "left_control",
                                 "left_shift"
                             ]
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "left_option",
+                            "lazy": true
                         }
                     ],
                     "type": "basic"
