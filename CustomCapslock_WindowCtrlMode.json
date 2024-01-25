@@ -22,12 +22,6 @@
                     },
                     "to": [
                         {
-                            "key_code": "quote",
-                            "modifiers": [
-                                "left_control"
-                            ]
-                        },
-                        {
                             "set_variable": {
                                 "name": "capslock_mode",
                                 "value": 3
