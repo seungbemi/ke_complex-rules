@@ -356,8 +356,62 @@
             ]
         },
         {
-            "description": "CustomCapsLock : Tab mover ([,])",
+            "description": "CustomCapsLock : Tab mover ([,], 7,8)",
             "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_unless",
+                            "value": 0
+                        }
+                    ],
+                    "from": {
+                        "key_code": "7",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "open_bracket",
+                            "modifiers": [
+                                "left_command",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_unless",
+                            "value": 0
+                        }
+                    ],
+                    "from": {
+                        "key_code": "8",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "close_bracket",
+                            "modifiers": [
+                                "left_command",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
                 {
                     "conditions": [
                         {
@@ -904,12 +958,18 @@
                             ]
                         }
                     },
-                    "to": [
+                    "to_if_alone": [
                         {
                             "key_code": "z",
                             "modifiers": [
                                 "left_command"
                             ]
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "left_control",
+                            "lazy": true
                         }
                     ],
                     "type": "basic"
@@ -1008,18 +1068,12 @@
                             ]
                         }
                     },
-                    "to_if_alone": [
+                    "to": [
                         {
                             "key_code": "a",
                             "modifiers": [
                                 "left_command"
                             ]
-                        }
-                    ],
-                    "to": [
-                        {
-                            "key_code": "left_control",
-                            "lazy": true
                         }
                     ],
                     "type": "basic"
