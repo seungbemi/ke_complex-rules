@@ -2,20 +2,20 @@
 
 This repo includes custom complex modification rules for [karabiner-elements](https://karabiner-elements.pqrs.org/) to customize key strokes.
 
-The CapsLock key is modified to be used as a virtual modifier and in order to use the virtual modifier, the mandatory rules MUST be enabled.
+The CapsLock key is modified to be used as a virtual modifier. To use the virtual modifier, make sure to enable the mandatory rules.
 
-The following keys are used as virtual modifiers.
+The following keys are used as virtual modifiers:
 
 - CapsLock
-- Tab
+- Right Command
 
-The following modes can be enabled by hitting extra dedicated keys while CapsLock is pressed.
+While holding down the CapsLock key, you can activate the following modes by pressing additional dedicated keys:
 
-- Launcher mode : Enter
-- Window control mode : Right command
-- Mouse key mode : Right shift
+- Launcher mode: Enter
+- Window control mode: Right Command
+- Mouse key mode: Right Shift
 
-## Import rules
+## Importing Rules
 
 The detailed instructions can be found in [karabiner-elements](https://github.com/pqrs-org/KE-complex_modifications#import-file-from-another-site).
 
@@ -37,11 +37,11 @@ Rule URLs can be copied from the following list.
 | [CustomCapslock_LauncherMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_LauncherMode.json)| Ruleset to launch applications |
 | [CustomCapslock_WindowCtrlMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_WindowCtrlMode.json) | Ruleset to control activated window |
 | [CustomCapslock_MouseKeyMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_MouseKeyMode.json) | Ruleset to use mouse using keyboard |
-| [CustomTab_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomTab_Base.json) | Ruleset using tab as a modifier |
+| [CustomSpacebar_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomSpacebar_Base.json) | Ruleset using spacebar as a modifier |
 
 ## CustomCapslock Basic
 
-The following keys are modified while the Capslock key is being pressed.
+The following keys are modified while the Capslock key is being pressed to provide additional functionalities.
 
 e.g. CAPSLOCK(pressed) + i -> Arrow Up
 
@@ -56,7 +56,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 
 | FROM | TO |
 | - | - |
-| a + other keys | CTRL |
+| z + other keys | CTRL |
 | s + other keys | SHIFT |
 | d + other keys | OPTION |
 | f + other keys | CMD |
@@ -95,6 +95,8 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 
 | FROM | TO |
 | - | - |
+| 7 | Move left tab (CMD+SHIFT+[) |
+| 8 | Move right tab (CMD+SHIFT+]) |
 | Open bracket([) | Move left tab (CMD+SHIFT+[) |
 | Close bracket(]) | Move right tab (CMD+SHIFT+]) |
 
@@ -174,7 +176,7 @@ The following bindings are only enabled in iTerm application.
 
 ## Launcher Mode
 
-The launcher mode can be initiated by striking enter while the capslock key is being pressed.
+The launcher mode can be initiated by pressing the Enter key while the Caps Lock key is being held down. This mode allows you to quickly open applications by combining the Caps Lock key with other keys.
 
 e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 
@@ -197,9 +199,9 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 
 ## Window Control Mode
 
-This Window Control Mode requires a tool called [Better Touch Tool](https://folivora.ai/). And it is desired to be configured to work properly.
+This Window Control Mode requires the use of [Better Touch Tool](https://folivora.ai/) to be properly configured.
 
-The mode can be initiated by striking right command key while the capslock key is being pressed.
+To activate this mode, press the right command key while holding down the Caps Lock key.
 
 e.g. `CAPSLOCK(pressed) + R_COMMAND(down/up) + m -> maximize window`
 
@@ -292,30 +294,57 @@ The speed will change while pressing the following keys.
 | semicolon(;) | Next Page |
 | e | Escape |
 
-## Custom Tab Basic
+## Custom Right Command Basic
 
-The tab key is pressed solo, it's used as the tab. But it's going to be used as a virtual key when it's pressed with the following keys.
+The following keys are modified while the Right Command key is being pressed to be able to have a layer with fullset of symbols without using the shift key.
 
-e.g. tab(alone) -> tab, tab + q -> previous application
+e.g. right command(alone) -> right command, right command + q -> !, right command + w -> @
 
-### Switch application
+### Symbol Mapping
 
-| FROM | TO |
-| - | - |
-| q | Prev application |
-| w | Next application |
-
-### Number pad
+- Top Row
 
 | FROM | TO |
 | - | - |
-| o | 9 |
-| i | 8 |
-| u | 7 |
-| l | 6 |
-| k | 5 |
-| j | 4 |
-| comma(,) | 3 |
-| o | 2 |
-| i | 1 |
-| Space | 0 |
+| q | ! |
+| w | @ |
+| e | # |
+| r | $ |
+| t | % |
+| y | ^ |
+| u | & |
+| i | * |
+| o | ( |
+| p | ) |
+| \[ | " |
+| \] | \] |
+
+- Home Row
+
+| FROM | TO |
+| - | - |
+| a | ? |
+| s | [ |
+| d | ] |
+| f | { |
+| g | } |
+| h | \| |
+| j | + |
+| k | = |
+| l | : |
+| ; | ; |
+| ' | ' |
+
+- Bottom Row
+
+| FROM | TO |
+| - | - |
+| x | < |
+| c | > |
+| v | \ |
+| b | ~ |
+| n | _ |
+| m | - |
+| , | , |
+| . | . |
+| / | / |
