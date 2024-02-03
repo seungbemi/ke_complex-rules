@@ -572,6 +572,22 @@
                         }
                     ],
                     "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "slash",
+                        "modifiers": {
+                            "mandatory": [
+                                "right_command"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "slash"
+                        }
+                    ],
+                    "type": "basic"
                 }
             ]
         }
