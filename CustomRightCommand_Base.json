@@ -10,6 +10,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -26,6 +31,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -45,6 +55,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -64,6 +79,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -83,6 +103,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -102,6 +127,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -121,6 +151,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -140,6 +175,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -159,6 +199,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -178,6 +223,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -197,6 +247,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -216,6 +271,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -240,6 +300,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -259,6 +324,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -275,6 +345,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -291,6 +366,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -310,6 +390,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -329,6 +414,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -348,6 +438,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -367,6 +462,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -383,6 +483,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -402,6 +507,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -418,6 +528,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -439,6 +554,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -458,6 +578,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -477,6 +602,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -493,6 +623,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -512,6 +647,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -531,6 +671,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -547,6 +692,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -563,6 +713,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
@@ -579,6 +734,11 @@
                         "modifiers": {
                             "mandatory": [
                                 "right_command"
+                            ],
+                            "optional": [
+                                "caps_lock",
+                                "left_shift",
+                                "right_shift"
                             ]
                         }
                     },
