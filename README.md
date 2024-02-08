@@ -56,7 +56,7 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 
 | FROM | TO |
 | - | - |
-| z + other keys | CTRL |
+| a + other keys | CTRL |
 | s + other keys | SHIFT |
 | d + other keys | OPTION |
 | f + other keys | CMD |
@@ -149,7 +149,6 @@ e.g. CAPSLOCK(pressed) + i -> Arrow Up
 | Tab | SHIFT+Tab |
 | d | [DeepL](https://www.deepl.com/pro?cta=header-pro) app |
 | Right CMD(without capslock) | Switch Input language |
-| Right Option(without capslock) | fn key |
 
 ### VSCode
 
@@ -188,7 +187,7 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 | f | Forklift |
 | g | Micorsoft Edge |
 | i | Safari |
-| j | Menu (CTRL + f2)
+| j | Menu (CTRL + f2)|
 | k | KakaoTalk |
 | m | Messages |
 | p | Spark |
@@ -267,13 +266,15 @@ The Mouse Key Mode can be initiated by striking right shift key while the capslo
 | o | Scroll right |
 | p | Scroll up |
 | quote(') | Scroll down |
+| y | Scroll up |
+| n | Scroll down |
 
 ### Click
 
 | FROM | TO |
 | - | - |
 | v | Left click |
-| c | CMD + Left click |
+| g | CMD + Left click |
 | b | Right click |
 
 ### Speed control
@@ -286,13 +287,26 @@ The speed will change while pressing the following keys.
 | d | Faster cursor speed |
 | f | Even Faster cursor speed |
 
-### Common keys
+### Page Navigation
 
 | FROM | TO |
 | - | - |
 | h | Prev Page |
 | semicolon(;) | Next Page |
+
+### Tab Navigation
+
+| FROM | TO |
+| - | - |
+| m | Move left tab (CMD+SHIFT+[) |
+| comma(,) | Move right tab (CMD+SHIFT+]) |
+
+### Common keys
+
+| FROM | TO |
+| - | - |
 | e | Escape |
+| r | Refresh (CMD + R)  |
 
 ## Custom Right Command Basic
 
@@ -314,22 +328,21 @@ e.g. right command(alone) -> right command, right command + q -> !, right comman
 | y | ^ |
 | u | & |
 | i | * |
-| o | ( |
-| p | ) |
+| o | \ |
+| p | \| |
 | \[ | " |
-| \] | \] |
 
 - Home Row
 
 | FROM | TO |
 | - | - |
 | a | ? |
-| s | [ |
-| d | ] |
+| s | ( |
+| d | ) |
 | f | { |
 | g | } |
-| h | \| |
-| j | + |
+| h | _ |
+| j | - |
 | k | = |
 | l | : |
 | ; | ; |
@@ -341,10 +354,20 @@ e.g. right command(alone) -> right command, right command + q -> !, right comman
 | - | - |
 | x | < |
 | c | > |
-| v | \ |
-| b | ~ |
-| n | _ |
-| m | - |
+| v | [ |
+| b | ] |
+| n | ~ |
+| m | + |
 | , | , |
 | . | . |
 | / | / |
+
+## Base Key Mapping
+
+These are the base key mappings that are used without any virtual modifiers.
+
+| FROM | TO |
+| - | - |
+| left command + delete_forward | delete all left of cursor |
+| right option | fn key |
+| left command + e | open PastePal (CMD + SHIFT + v) |

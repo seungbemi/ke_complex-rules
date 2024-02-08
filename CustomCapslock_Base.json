@@ -958,18 +958,12 @@
                             ]
                         }
                     },
-                    "to_if_alone": [
+                    "to": [
                         {
                             "key_code": "z",
                             "modifiers": [
                                 "left_command"
                             ]
-                        }
-                    ],
-                    "to": [
-                        {
-                            "key_code": "left_control",
-                            "lazy": true
                         }
                     ],
                     "type": "basic"
@@ -1068,12 +1062,18 @@
                             ]
                         }
                     },
-                    "to": [
+                    "to_if_alone": [
                         {
                             "key_code": "a",
                             "modifiers": [
                                 "left_command"
                             ]
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "left_control",
+                            "lazy": true
                         }
                     ],
                     "type": "basic"
@@ -1211,27 +1211,6 @@
                     "parameters": {
                         "basic.to_if_alone_timeout_milliseconds": 200
                     },
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "CustomModifiers : fn (right_option)",
-            "manipulators": [
-                {
-                    "from": {
-                        "key_code": "right_option",
-                        "modifiers": {
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "fn"
-                        }
-                    ],
                     "type": "basic"
                 }
             ]

@@ -138,7 +138,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Scroll (u,o,p,quote)",
+            "description": "CustomCapsLock | MouseKeyMode : Scroll (u,o,p,quote,y,n)",
             "manipulators": [
                 {
                     "conditions": [
@@ -239,11 +239,61 @@
                         }
                     ],
                     "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "y",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "mouse_key": {
+                                "vertical_wheel": 32
+                            }
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "n",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "mouse_key": {
+                                "vertical_wheel": -32
+                            }
+                        }
+                    ],
+                    "type": "basic"
                 }
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Click (v,c,b)",
+            "description": "CustomCapsLock | MouseKeyMode : Click (v,g,b)",
             "manipulators": [
                 {
                     "conditions": [
@@ -277,7 +327,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "c",
+                        "key_code": "g",
                         "modifiers": {
                             "optional": [
                                 "any"
@@ -400,7 +450,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Back/Forward (h,;)",
+            "description": "CustomCapsLock | MouseKeyMode : Page Navigtaion (h,;)",
             "manipulators": [
                 {
                     "conditions": [
@@ -459,7 +509,68 @@
             ]
         },
         {
-            "description": "CustomCapsLock | MouseKeyMode : Escape (e)",
+            "description": "CustomCapsLock | MouseKeyMode : Tab Mover (m,comma)",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "m",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock",
+                                "left_shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "open_bracket",
+                            "modifiers": [
+                                "left_command",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "comma",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock",
+                                "left_shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "close_bracket",
+                            "modifiers": [
+                                "left_command",
+                                "left_shift"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "CustomCapsLock | MouseKeyMode : Common Keys (e/r)",
             "manipulators": [
                 {
                     "conditions": [
@@ -481,6 +592,33 @@
                     "to": [
                         {
                             "key_code": "escape"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "name": "capslock_mode",
+                            "type": "variable_if",
+                            "value": 4
+                        }
+                    ],
+                    "from": {
+                        "key_code": "r",
+                        "modifiers": {
+                            "optional": [
+                                "caps_lock",
+                                "left_shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "r",
+                            "modifiers": [
+                                "left_command"
+                            ]
                         }
                     ],
                     "type": "basic"
