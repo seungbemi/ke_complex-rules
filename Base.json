@@ -2,6 +2,39 @@
     "title": "Base : Basic key remappings",
     "rules": [
         {
+            "description": "Base : CMD + arrows (home/end)",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "home"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": [
+                                "left_command"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "end"
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": [
+                                "left_command"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "Base : Delete all left of cursor(CMD + delete_forward)",
             "manipulators": [
                 {
