@@ -368,6 +368,9 @@ These are the base key mappings that are used without any virtual modifiers.
 
 | FROM | TO |
 | - | - |
+| keyboard layout | [colemak-dh matrix layout](https://colemakmods.github.io/mod-dh/keyboards.html#matrix-keyboards) |
+| home | CMD + left |
+| end | CMD + right |
 | left command + delete_forward | delete all left of cursor |
 | right option | fn key |
 | left command + e | open PastePal (CMD + SHIFT + v) |
