@@ -320,7 +320,7 @@ e.g. right command(alone) -> right command, right command + q -> !, right comman
 
 | FROM | TO |
 | - | - |
-| q | ! |
+| q | ` |
 | w | @ |
 | e | # |
 | r | $ |
@@ -336,11 +336,11 @@ e.g. right command(alone) -> right command, right command + q -> !, right comman
 
 | FROM | TO |
 | - | - |
-| a | ? |
-| s | ( |
-| d | ) |
-| f | { |
-| g | } |
+| a | [ |
+| s | ] |
+| d | ( |
+| f | ) |
+| g | ? |
 | h | _ |
 | j | - |
 | k | = |
@@ -352,10 +352,11 @@ e.g. right command(alone) -> right command, right command + q -> !, right comman
 
 | FROM | TO |
 | - | - |
-| x | < |
-| c | > |
-| v | [ |
-| b | ] |
+| z | < |
+| x | > |
+| c | { |
+| v | } |
+| b | ! |
 | n | ~ |
 | m | + |
 | , | , |
