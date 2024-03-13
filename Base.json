@@ -6,7 +6,12 @@
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "home"
+                        "key_code": "home",
+                        "modifiers": {
+                            "optional":[
+                                "caps_lock"
+                            ]
+                        }
                     },
                     "to": [
                         {
@@ -20,7 +25,12 @@
                 },
                 {
                     "from": {
-                        "key_code": "end"
+                        "key_code": "end",
+                        "modifiers": {
+                            "optional":[
+                                "caps_lock"
+                            ]
+                        }
                     },
                     "to": [
                         {
@@ -88,6 +98,9 @@
                         "modifiers": {
                             "mandatory": [
                                 "left_command"
+                            ],
+                            "optional": [
+                                "caps_lock"
                             ]
                         }
                     },
