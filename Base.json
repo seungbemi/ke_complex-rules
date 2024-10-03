@@ -8,7 +8,7 @@
                     "from": {
                         "key_code": "f1",
                         "modifiers": {
-                            "optional":[
+                            "optional": [
                                 "caps_lock"
                             ],
                             "mandatory": [
@@ -19,7 +19,7 @@
                         }
                     },
                     "to": [
-                    {
+                        {
                             "key_code": "semicolon",
                             "modifiers": [
                                 "left_shift"
@@ -32,7 +32,7 @@
                     "from": {
                         "key_code": "f1",
                         "modifiers": {
-                            "optional":[
+                            "optional": [
                                 "caps_lock"
                             ],
                             "mandatory": [
@@ -62,7 +62,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -101,7 +101,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -140,7 +140,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -179,7 +179,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -218,7 +218,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -257,7 +257,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -296,7 +296,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -335,7 +335,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -374,7 +374,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -413,7 +413,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -452,7 +452,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -491,7 +491,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -530,7 +530,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -569,7 +569,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -608,7 +608,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -647,7 +647,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -686,7 +686,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -725,7 +725,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -764,7 +764,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -803,7 +803,7 @@
                         },
                         {
                             "bundle_identifiers": [
-                                "^com\\.apple\\.universalcontrol$"
+                                "^com\\.apple\\.(loginwindow|universalcontrol)$"
                             ],
                             "type": "frontmost_application_unless"
                         },
@@ -842,8 +842,8 @@
                     "from": {
                         "key_code": "home",
                         "modifiers": {
-                            "optional":[
-                                "caps_lock"
+                            "optional": [
+                                "any"
                             ]
                         }
                     },
@@ -861,8 +861,8 @@
                     "from": {
                         "key_code": "end",
                         "modifiers": {
-                            "optional":[
-                                "caps_lock"
+                            "optional": [
+                                "any"
                             ]
                         }
                     },
@@ -879,7 +879,7 @@
             ]
         },
         {
-            "description": "Base : Delete all left of cursor(CMD + delete_forward)",
+            "description": "Base : Delete all right of cursor(CMD + delete_forward)",
             "manipulators": [
                 {
                     "type": "basic",
