@@ -33,7 +33,7 @@ Rule URLs can be copied from the following list.
 |-----------------------------------|---------------------------------------|
 | [CustomCapslock_Base](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_Base.json) | Ruleset for basic custom capslock |
 | [CustomCapslock_iTerm2](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_iTerm2.json) | Ruleset for iTerms2 |
-| [CustomCapslock_VSCode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_VSCode.json) | Ruleset for VSCode |
+| [CustomCapslock_VSCode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_VSCode.json) | Ruleset for VSCode/Cursor |
 | [CustomCapslock_LauncherMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_LauncherMode.json)| Ruleset to launch applications |
 | [CustomCapslock_WindowCtrlMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_WindowCtrlMode.json) | Ruleset to control activated window |
 | [CustomCapslock_MouseKeyMode](https://raw.githubusercontent.com/seungbemi/ke_complex-rules/master/CustomCapslock_MouseKeyMode.json) | Ruleset to use mouse using keyboard |
@@ -169,6 +169,7 @@ The following bindings are only enabled in VSCode application.
 ### iTerm
 
 The following bindings are only enabled in iTerm application.
+
 | FROM | TO |
 | - | - |
 | r | CTRL + r |
@@ -182,7 +183,7 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 | FROM | Application |
 | - | - |
 | b | Brave Browser |
-| c | Chrome Browser |
+| c | Cursor |
 | d | Dock (CTRL + f3) |
 | f | Forklift |
 | g | Micorsoft Edge |
