@@ -392,7 +392,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | LauncherMode : iTerm2 (t)",
+            "description": "CustomCapsLock | LauncherMode : Warp (t)",
             "manipulators": [
                 {
                     "conditions": [
@@ -412,7 +412,7 @@
                     },
                     "to": [
                         {
-                            "shell_command": "open -a 'iTerm.app'"
+                            "shell_command": "open -a 'Warp.app'"
                         }
                     ],
                     "type": "basic"
