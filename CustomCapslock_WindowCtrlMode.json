@@ -383,6 +383,7 @@
             "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Half (h;tb)",
             "manipulators": [
                 {
+                    "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Left Half (h)",
                     "conditions": [
                         {
                             "name": "capslock_mode",
@@ -400,16 +401,17 @@
                     },
                     "to": [
                         {
-                            "key_code": "h",
+                            "key_code": "left_arrow",
                             "modifiers": [
                                 "left_control",
-                                "left_option"
+                                "fn"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Right Half (;)",
                     "conditions": [
                         {
                             "name": "capslock_mode",
@@ -427,16 +429,17 @@
                     },
                     "to": [
                         {
-                            "key_code": "semicolon",
+                            "key_code": "right_arrow",
                             "modifiers": [
                                 "left_control",
-                                "left_option"
+                                "fn"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Top Half (t)",
                     "conditions": [
                         {
                             "name": "capslock_mode",
@@ -454,16 +457,17 @@
                     },
                     "to": [
                         {
-                            "key_code": "t",
+                            "key_code": "up_arrow",
                             "modifiers": [
                                 "left_control",
-                                "left_option"
+                                "fn"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Bottom Half (b)",
                     "conditions": [
                         {
                             "name": "capslock_mode",
@@ -481,10 +485,10 @@
                     },
                     "to": [
                         {
-                            "key_code": "b",
+                            "key_code": "down_arrow",
                             "modifiers": [
                                 "left_control",
-                                "left_option"
+                                "fn"
                             ]
                         }
                     ],
@@ -493,9 +497,10 @@
             ]
         },
         {
-            "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Max/Focus (m,f)",
+            "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Max/Center (m,c)",
             "manipulators": [
                 {
+                    "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Maximize (m)",
                     "conditions": [
                         {
                             "name": "capslock_mode",
@@ -513,16 +518,17 @@
                     },
                     "to": [
                         {
-                            "key_code": "m",
+                            "key_code": "f",
                             "modifiers": [
                                 "left_control",
-                                "left_option"
+                                "fn"
                             ]
                         }
                     ],
                     "type": "basic"
                 },
                 {
+                    "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Center (c)",
                     "conditions": [
                         {
                             "name": "capslock_mode",
@@ -531,7 +537,7 @@
                         }
                     ],
                     "from": {
-                        "key_code": "f",
+                        "key_code": "c",
                         "modifiers": {
                             "optional": [
                                 "caps_lock"
@@ -540,10 +546,10 @@
                     },
                     "to": [
                         {
-                            "key_code": "f",
+                            "key_code": "c",
                             "modifiers": [
                                 "left_control",
-                                "left_option"
+                                "fn"
                             ]
                         }
                     ],
@@ -611,7 +617,7 @@
             ]
         },
         {
-            "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Revert (r)",
+            "description": "CustomCapsLock | WindowCtrlMode : Window Snapping - Return to Original Size (r)",
             "manipulators": [
                 {
                     "conditions": [
@@ -634,7 +640,7 @@
                             "key_code": "r",
                             "modifiers": [
                                 "left_control",
-                                "left_option"
+                                "fn"
                             ]
                         }
                     ],

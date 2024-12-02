@@ -243,7 +243,7 @@ e.g. `CAPSLOCK(pressed) + R_COMMAND(down/up) + m -> maximize window`
 | u | Resizee window to left two thirds |
 | o | Resize window to right two thirds |
 | m | Resize window to max |
-| f | Resize window to middle |
+| c | Resize window to center |
 | r | Revert window size |
 
 ## Mouse Key Mode
