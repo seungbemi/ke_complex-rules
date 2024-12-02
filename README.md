@@ -193,7 +193,7 @@ e.g. `CAPSLOCK(pressed) + ENTER(down/up) + c -> open Chrome`
 | m | Messages |
 | p | Spark |
 | s | Slack |
-| t | iTerm2 |
+| t | Warp |
 | v | VSCode |
 | w | WhatsApp |
 
