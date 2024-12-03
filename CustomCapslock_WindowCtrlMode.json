@@ -401,10 +401,10 @@
                     },
                     "to": [
                         {
-                            "key_code": "left_arrow",
+                            "key_code": "h",
                             "modifiers": [
                                 "left_control",
-                                "fn"
+                                "left_option"
                             ]
                         }
                     ],
@@ -429,10 +429,10 @@
                     },
                     "to": [
                         {
-                            "key_code": "right_arrow",
+                            "key_code": ";",
                             "modifiers": [
                                 "left_control",
-                                "fn"
+                                "left_option"
                             ]
                         }
                     ],
@@ -460,7 +460,7 @@
                             "key_code": "up_arrow",
                             "modifiers": [
                                 "left_control",
-                                "fn"
+                                "left_option"
                             ]
                         }
                     ],
@@ -485,10 +485,10 @@
                     },
                     "to": [
                         {
-                            "key_code": "down_arrow",
+                            "key_code": "b",
                             "modifiers": [
                                 "left_control",
-                                "fn"
+                                "left_option"
                             ]
                         }
                     ],
@@ -518,10 +518,10 @@
                     },
                     "to": [
                         {
-                            "key_code": "f",
+                            "key_code": "m",
                             "modifiers": [
                                 "left_control",
-                                "fn"
+                                "left_option"
                             ]
                         }
                     ],
@@ -549,7 +549,7 @@
                             "key_code": "c",
                             "modifiers": [
                                 "left_control",
-                                "fn"
+                                "left_option"
                             ]
                         }
                     ],
@@ -640,7 +640,7 @@
                             "key_code": "r",
                             "modifiers": [
                                 "left_control",
-                                "fn"
+                                "left_option"
                             ]
                         }
                     ],
